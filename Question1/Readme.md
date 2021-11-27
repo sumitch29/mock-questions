@@ -1,0 +1,1 @@
+Fetch an API ( https://jsonplaceholder.typicode.com/todos ) and display it on the output on screen
