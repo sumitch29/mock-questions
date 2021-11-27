@@ -7,7 +7,7 @@ const url = 'https://jsonplaceholder.typicode.com/todos'
 
 function clickHandler(){
     fetch(url)
-    .then(response => {return response.json()})
+    .then(response => response.json())
     .then(todo => {
        let result = "";
        outPut.innerHTML = todo.map((todo)=>{
