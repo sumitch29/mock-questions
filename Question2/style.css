@@ -1,0 +1,13 @@
+
+#button1{
+    border-width: 5px;
+}
+
+#button2{
+    border-width: 10px;
+}
+
+#input{
+    border-color: blueviolet;
+    border-width: 10px;
+}

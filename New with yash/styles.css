@@ -1,0 +1,19 @@
+:root {
+    --primary-color : red ;
+    --secondary-color : blue ;
+}
+
+#input {
+color: var(--primary-color);
+}
+
+#h2 {
+    color: var(--secondary-color);
+}
+
+
+#h3 {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+  
+}
