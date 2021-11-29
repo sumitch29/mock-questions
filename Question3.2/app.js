@@ -8,5 +8,7 @@ butTon.addEventListener('click',checkPassword)
 function checkPassword(){
     if(inPut.value === passWord.value){
         outPut.innerText = "Password can't have name"
+    }else{
+        outPut.innerText = "Success"
     }
 }

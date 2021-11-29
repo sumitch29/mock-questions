@@ -1,5 +1,6 @@
 const butTon = document.querySelector("#button");
 const outPut = document.querySelector("#output");
+
 let array =[
     {
         task : "playing cricket",
