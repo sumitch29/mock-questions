@@ -9,13 +9,12 @@ function clickHandler(){
     let squareValue = (inPut.value)**2
     console.log(squareValue)
     let autoMorphic = squareValue % 10
-    let checkNumber = autoMorphic
-
-    console.log(autoMorphic)
+    let checkNumber = Number(autoMorphic)
+   
     console.log(checkNumber)
     console.log(inputValue)
     
-    if(inPut == checkNumber){
+    if(inputValue == checkNumber){
             outPut.innerText = "number is automorphic"
     }else{
         outPut.innerText = "number is not automorphic"
