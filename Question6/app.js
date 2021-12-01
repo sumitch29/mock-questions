@@ -5,16 +5,11 @@ const outPut = document.querySelector("#output");
 butTon.addEventListener('click',clickHandler)
 
 function clickHandler(){
-    let inputValue = inPut.value
-    let squareValue = (inPut.value)**2
-    console.log(squareValue)
+    let inputValue = Number(inPut.value)
+    let squareValue = (inputValue)**2
     let autoMorphic = squareValue % 10
-    let checkNumber = Number(autoMorphic)
-   
-    console.log(checkNumber)
-    console.log(inputValue)
     
-    if(inputValue == checkNumber){
+    if(inputValue === autoMorphic){
             outPut.innerText = "number is automorphic"
     }else{
         outPut.innerText = "number is not automorphic"
